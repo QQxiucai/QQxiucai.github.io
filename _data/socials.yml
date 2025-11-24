@@ -1,58 +1,70 @@
 # this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
-# the socials will be displayed in the order they are defined here
+# The socials will be displayed in the order they are defined here
 
-# academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
-#  organization: princeton # your organization as appears in the subdomain
-#  username:  AlbertEinstein # your username
-# acm_id: # your dl.acm.org/profile/id
-# arxiv_id: # your arXiv author ID
-# blogger_url: # your blogger URL
-# bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-# dblp_url: # your DBLP profile url
-# discord_id: # your discord id (18-digit unique numerical identifier)
-email: you@example.com # your email address
-# facebook_id: # your facebook id
-# flickr_id: # your flickr id
-# github_username: # your GitHub user name
-# gitlab_username: # your GitLab user name
-# hal_id: # your HAL id (https://hal.science/)
-# ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
-# instagram_id: # your instagram id
-# kaggle_id: # your kaggle id
-# keybase_username: # your keybase user name
-# lastfm_id: # your lastfm id
-# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-# leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
-# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-# medium_username: # your Medium username
-# orcid_id: # your ORCID ID
-# osf_id: # your OSF ID
-# pinterest_id: # your pinterest id
-# publons_id: # your ID on Publons
-# quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
-# spotify_id: # your spotify id
-# stackoverflow_id: # your stackoverflow id
-# strava_userid: # your strava user id
-# telegram_username: # your Telegram user name
-# unsplash_id: # your unsplash id
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-# wikidata_id: # your wikidata id
-# wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
-# x_username: # your X handle
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-# zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# ============================================================
+# 1. CV (简历) - 必须保留
+# ============================================================
+# 请确保你的简历文件名为 resume.pdf，并且已经上传到了 assets/pdf/ 文件夹中
+cv_pdf: /assets/pdf/resume.pdf
+
+# ============================================================
+# 2. Google Scholar (谷歌学术) - 必须保留
+# ============================================================
+# 请替换下面的 ID 为你真实的 Google Scholar ID
+# (打开你的谷歌学术主页，URL中 user=后面的那串字符就是 ID)
+scholar_userid: 你的GoogleScholarID
+
+# ============================================================
+# 3. 其他图标 (已全部注释隐藏)
+# ============================================================
+# 如果未来想开启某个图标，只需删除行首的 # 号并填入正确信息即可
+
+# email: you@example.com
+# rss_icon: true
+# inspirehep_id: 1010907
+# github_username: your_username
+# linkedin_username: your_username
+# x_username: your_username
+# orcid_id: your_id
+# research_gate_profile: your_profile
+# wechat_qr: wechat-qr.png
+
+# ... 其他未使用的选项保持默认注释即可 ...
+# academia_edu:
+# acm_id:
+# arxiv_id:
+# blogger_url:
+# bluesky_url:
+# dblp_url:
+# discord_id:
+# facebook_id:
+# flickr_id:
+# gitlab_username:
+# hal_id:
+# ieee_id:
+# instagram_id:
+# kaggle_id:
+# keybase_username:
+# lastfm_id:
+# lattes_id:
+# leetcode_id:
+# mastodon_username:
+# medium_username:
+# osf_id:
+# pinterest_id:
+# publons_id:
+# quora_username:
+# scopus_id:
+# semanticscholar_id:
+# spotify_id:
+# stackoverflow_id:
+# strava_userid:
+# telegram_username:
+# unsplash_id:
+# whatsapp_number:
+# wikidata_id:
+# wikipedia_id:
+# work_url:
+# youtube_id:
+# zotero_username:
+# custom_social:
