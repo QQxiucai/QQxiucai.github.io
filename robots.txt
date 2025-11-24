@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://QQxiucai.github.io/sitemap.xml
