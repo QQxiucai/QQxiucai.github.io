@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: 2023级本科生 @ <a href='https://cic.nju.edu.cn/'>南京大学集成电路学院</a>
+subtitle: Undergraduate student in the class of 2023 @ <a href='https://ic.nju.edu.cn/'>School of Integrated Circuits，Nanjing University </a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to a circle
   address: >
-    <p>南京大学苏州校区</p>
+    <p>Nanjing University Suzhou Campus</p>
     
 
 news: true # includes a list of news items
