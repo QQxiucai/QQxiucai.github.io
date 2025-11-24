@@ -27,7 +27,7 @@ My research passion lies in **Computer Architecture** and **Hardware-Software Co
 
 - **Digital IC Design:** Focusing on **RISC-V** based CPU microarchitecture and domain-specific architectures such as Neural Processing Units (**NPU**) for deep learning.
 - **FPGA Acceleration:** Implementing parallel algorithms for real-time image processing and signal modulation on FPGA platforms.
-- **AI for Chip Design (AI4EDA):** Leveraging Artificial Intelligence to automate the IC design flow, specifically in generating Layouts, RTL code, and Testbenches to accelerate design iteration.
+- **AI for Chip Design:** Leveraging Artificial Intelligence to automate the IC design flow, specifically in generating Layouts, RTL code, and Testbenches to accelerate design iteration.
 
 **Honors & Awards:**
 I am the recipient of the **Second Prize** (East China Division) in the 9th National College Student Integrated Circuit Innovation and Entrepreneurship Competition, and the **Honorable Mention** in the Mathematical Contest in Modeling (MCM/ICM).
