@@ -54,7 +54,7 @@ description: Exploring AI computing systems, computer architecture, and AI infra
     <article class="timeline-item">
       <p class="timeline-period">2023 — Present</p>
       <div class="timeline-main">
-        <h3>B.Eng. Candidate · Integrated Circuit Design and Integration System</h3>
+        <h3>B.Eng. Candidate · Integrated Circuit Design and Integrated System</h3>
         <p>School of Integrated Circuits · Nanjing University</p>
       </div>
       <span class="timeline-type">EDUCATION</span>
