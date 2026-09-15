@@ -52,19 +52,19 @@
     });
   }
 
-  const portrait = document.querySelector(".hero-portrait");
-  if (portrait && !reduceMotion && window.matchMedia("(pointer: fine)").matches) {
-    portrait.addEventListener("pointermove", function (event) {
-      const rect = portrait.getBoundingClientRect();
+  const plant = document.querySelector(".botanical-stage");
+  if (plant && !reduceMotion && window.matchMedia("(pointer: fine)").matches) {
+    plant.addEventListener("pointermove", function (event) {
+      const rect = plant.getBoundingClientRect();
       const x = ((event.clientX - rect.left) / rect.width - 0.5) * 10;
       const y = ((event.clientY - rect.top) / rect.height - 0.5) * 8;
-      portrait.style.setProperty("--photo-x", x.toFixed(2) + "px");
-      portrait.style.setProperty("--photo-y", y.toFixed(2) + "px");
+      plant.style.setProperty("--plant-x", x.toFixed(2) + "px");
+      plant.style.setProperty("--plant-y", y.toFixed(2) + "px");
     });
 
-    portrait.addEventListener("pointerleave", function () {
-      portrait.style.setProperty("--photo-x", "0px");
-      portrait.style.setProperty("--photo-y", "0px");
+    plant.addEventListener("pointerleave", function () {
+      plant.style.setProperty("--plant-x", "0px");
+      plant.style.setProperty("--plant-y", "0px");
     });
   }
 })();
