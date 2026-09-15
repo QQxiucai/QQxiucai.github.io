@@ -1,8 +1,16 @@
 <footer class="site-footer reveal">
   <div class="footer-identity">
     <span class="footer-name">Ruixuan Zhang</span>
-    <span>AI Computing Systems · Computer Architecture</span>
+    {% if page.lang == 'en' %}
+      <span>AI Computing Systems · Computer Architecture</span>
+    {% else %}
+      <span>人工智能计算系统 · 计算机体系结构</span>
+    {% endif %}
   </div>
-  <p class="footer-note">Build efficient systems, thoughtfully.</p>
+  {% if page.lang == 'en' %}
+    <p class="footer-note">Building efficient systems with care.</p>
+  {% else %}
+    <p class="footer-note">用审慎的思考，构建高效的系统。</p>
+  {% endif %}
   <p class="footer-copyright">© {{ site.time | date: '%Y' }} Ruixuan Zhang</p>
 </footer>

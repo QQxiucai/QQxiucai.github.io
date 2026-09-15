@@ -7,9 +7,9 @@ first_name: Ruixuan
 middle_name: 
 last_name: Zhang
 description: > 
-  关注 AI 计算系统、计算机体系结构与 AI Infrastructure，期待以更高效、开放的系统推动智能技术走向真实世界。
+  关注人工智能计算系统、计算机体系结构与智能计算基础设施，期待以更高效、开放的系统推动智能技术走向真实世界。
 footer_text: 版权所有。
-keywords: AI 计算系统, 智能计算系统, 计算机体系结构, AI Infrastructure, 大模型训练, 大模型推理
+keywords: 人工智能计算系统, 智能计算系统, 计算机体系结构, 智能计算基础设施, 大模型训练, 大模型推理
 lang: zh-CN
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

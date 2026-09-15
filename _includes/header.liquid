@@ -1,15 +1,42 @@
-<header class="site-header reveal reveal-immediate">
-  <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Ruixuan Zhang 首页">
-    <span class="brand-name">Ruixuan Zhang</span>
-    <span class="brand-focus">AI Computing Systems · Architecture · AI Infra</span>
-  </a>
+{% assign is_english = false %}
+{% if page.lang == 'en' %}
+  {% assign is_english = true %}
+{% endif %}
 
-  <nav class="site-nav" aria-label="主导航">
-    <a class="nav-link {% if page.permalink == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">首页</a>
-    <a class="nav-link {% if page.permalink == '/publications/' %}is-active{% endif %}" href="{{ '/publications/' | relative_url }}">Publications</a>
-    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换深浅色模式">
-      <span class="theme-icon theme-icon-light" aria-hidden="true">☼</span>
-      <span class="theme-icon theme-icon-dark" aria-hidden="true">☾</span>
-    </button>
-  </nav>
+<header class="site-header reveal reveal-immediate">
+  {% if is_english %}
+    <a class="site-brand" href="{{ '/en/' | relative_url }}" aria-label="Ruixuan Zhang home">
+      <span class="brand-name">Ruixuan Zhang</span>
+      <span class="brand-focus">AI Computing Systems · Computer Architecture · AI Infrastructure</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-link {% if page.permalink == '/en/' %}is-active{% endif %}" href="{{ '/en/' | relative_url }}">Home</a>
+      <a class="nav-link {% if page.permalink == '/en/publications/' %}is-active{% endif %}" href="{{ '/en/publications/' | relative_url }}">Publications</a>
+      <div class="nav-controls">
+        <a class="language-toggle" href="{{ page.alternate_url | default: '/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" aria-label="Switch to Chinese" title="Switch to Chinese">中</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch color theme">
+          <span class="theme-icon theme-icon-light" aria-hidden="true">☼</span>
+          <span class="theme-icon theme-icon-dark" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </nav>
+  {% else %}
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Ruixuan Zhang 主页">
+      <span class="brand-name">Ruixuan Zhang</span>
+      <span class="brand-focus">人工智能计算系统 · 计算机体系结构 · 智能基础设施</span>
+    </a>
+
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-link {% if page.permalink == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">首页</a>
+      <a class="nav-link {% if page.permalink == '/publications/' %}is-active{% endif %}" href="{{ '/publications/' | relative_url }}">研究成果</a>
+      <div class="nav-controls">
+        <a class="language-toggle" href="{{ page.alternate_url | default: '/en/' | relative_url }}" lang="en" hreflang="en" aria-label="切换到英文" title="切换到英文">EN</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换深浅色模式">
+          <span class="theme-icon theme-icon-light" aria-hidden="true">☼</span>
+          <span class="theme-icon theme-icon-dark" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </nav>
+  {% endif %}
 </header>

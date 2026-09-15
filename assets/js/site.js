@@ -7,7 +7,12 @@
     root.dataset.theme = theme;
     localStorage.setItem("theme", theme);
     if (toggle) {
-      toggle.setAttribute("aria-label", theme === "dark" ? "切换到浅色模式" : "切换到深色模式");
+      const isEnglish = root.lang.toLowerCase().startsWith("en");
+      const label = isEnglish
+        ? (theme === "dark" ? "Switch to light mode" : "Switch to dark mode")
+        : (theme === "dark" ? "切换到日间模式" : "切换到夜间模式");
+      toggle.setAttribute("aria-label", label);
+      toggle.setAttribute("title", label);
     }
   }
 
@@ -47,19 +52,19 @@
     });
   }
 
-  const plant = document.querySelector(".botanical-stage");
-  if (plant && !reduceMotion && window.matchMedia("(pointer: fine)").matches) {
-    plant.addEventListener("pointermove", function (event) {
-      const rect = plant.getBoundingClientRect();
+  const portrait = document.querySelector(".hero-portrait");
+  if (portrait && !reduceMotion && window.matchMedia("(pointer: fine)").matches) {
+    portrait.addEventListener("pointermove", function (event) {
+      const rect = portrait.getBoundingClientRect();
       const x = ((event.clientX - rect.left) / rect.width - 0.5) * 10;
       const y = ((event.clientY - rect.top) / rect.height - 0.5) * 8;
-      plant.style.setProperty("--plant-x", x.toFixed(2) + "px");
-      plant.style.setProperty("--plant-y", y.toFixed(2) + "px");
+      portrait.style.setProperty("--photo-x", x.toFixed(2) + "px");
+      portrait.style.setProperty("--photo-y", y.toFixed(2) + "px");
     });
 
-    plant.addEventListener("pointerleave", function () {
-      plant.style.setProperty("--plant-x", "0px");
-      plant.style.setProperty("--plant-y", "0px");
+    portrait.addEventListener("pointerleave", function () {
+      portrait.style.setProperty("--photo-x", "0px");
+      portrait.style.setProperty("--photo-y", "0px");
     });
   }
 })();
