@@ -23,6 +23,8 @@
 <title>
   {% if site.title == 'blank' %}
     {% capture title %}{{ author_name }}{% endcapture %}
+  {% elsif page.lang != 'en' and site.title_zh %}
+    {% capture title %}{{ site.title_zh }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
   {% endif %}

@@ -10,7 +10,7 @@ description: 关注人工智能计算系统、计算机体系结构与智能基�
 
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy">
-    <h1 id="hero-title" class="visually-hidden">Ruixuan Zhang 个人学术主页</h1>
+    <h1 id="hero-title" class="visually-hidden">张睿轩个人学术主页</h1>
     <p class="eyebrow">人工智能计算 · 系统 · 体系结构</p>
     <figure class="hero-portrait">
       <img src="{{ '/assets/img/照片.jpg' | relative_url }}" alt="山间的个人照片" width="3048" height="3048">
