@@ -106,10 +106,10 @@ description: 关注人工智能计算系统、计算机体系结构与智能基�
 
   <a class="publication-row" href="{{ '/publications/' | relative_url }}">
     <span class="publication-copy">
-      <strong>论文与研究工作正在整理中</strong>
-      <span>后续将在这里更新论文、技术报告、代码与相关材料。</span>
+      <strong>跨领域探索</strong>
+      <span>查看已发表论文及其他方向的科研探索。</span>
     </span>
-    <span class="publication-status">即将更新</span>
+    <span class="publication-status">查看详情</span>
     <span class="row-arrow" aria-hidden="true">→</span>
   </a>
 </section>
