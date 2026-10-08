@@ -5,13 +5,13 @@ permalink: /
 lang: zh-CN
 alternate_url: /en/
 alternate_lang: en
-description: 关注人工智能计算系统、计算机体系结构与智能基础设施，期待构建更高效、开放且可持续的智能计算基础设施。
+description: 关注人工智能计算系统、具身智能系统与智能基础设施，期待构建更高效、开放且可持续的智能计算基础设施。
 ---
 
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy">
     <h1 id="hero-title" class="visually-hidden">张睿轩个人学术主页</h1>
-    <p class="eyebrow">人工智能计算 · 系统 · 体系结构</p>
+    <p class="eyebrow">人工智能计算 · 系统 · 具身智能</p>
     <figure class="hero-portrait">
       <img src="{{ '/assets/img/照片.jpg' | relative_url }}" alt="山间的个人照片" width="3048" height="3048">
     </figure>
@@ -52,6 +52,15 @@ description: 关注人工智能计算系统、计算机体系结构与智能基�
 
   <div class="timeline-list">
     <article class="timeline-item">
+      <p class="timeline-period">2027 — 即将入学</p>
+      <div class="timeline-main">
+        <h3>博士研究生（即将入学）· 电子信息</h3>
+        <p>浙江大学 · RC4ML 实验室</p>
+      </div>
+      <span class="timeline-type">教育经历</span>
+    </article>
+
+    <article class="timeline-item">
       <p class="timeline-period">2023 — 至今</p>
       <div class="timeline-main">
         <h3>工学学士（在读）· 集成电路设计与集成系统</h3>
@@ -60,7 +69,7 @@ description: 关注人工智能计算系统、计算机体系结构与智能基�
       <span class="timeline-type">教育经历</span>
     </article>
 
-    <!-- 后续可复制 timeline-item，在这里依次添加博士教育经历与工作经历。 -->
+    <!-- 后续可复制 timeline-item，在这里继续添加教育经历与工作经历。 -->
   </div>
 </section>
 
@@ -80,8 +89,8 @@ description: 关注人工智能计算系统、计算机体系结构与智能基�
     </article>
     <article class="interest-item">
       <span class="interest-number">02</span>
-      <h3>计算机体系结构</h3>
-      <p>关注处理器、存储与互连架构，以及它们对智能计算任务的支撑。</p>
+      <h3>具身智能系统</h3>
+      <p>关注感知、决策与行动一体化的具身智能系统，以及模型、系统软件与计算平台的协同设计。</p>
     </article>
     <article class="interest-item">
       <span class="interest-number">03</span>

@@ -5,13 +5,13 @@ permalink: /en/
 lang: en
 alternate_url: /
 alternate_lang: zh-CN
-description: Exploring AI computing systems, computer architecture, and AI infrastructure to build efficient, open, and sustainable systems for intelligent technology.
+description: Exploring AI computing systems, embodied AI systems, and AI infrastructure to build efficient, open, and sustainable systems for intelligent technology.
 ---
 
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy">
     <h1 id="hero-title" class="visually-hidden">Ruixuan Zhang Academic Homepage</h1>
-    <p class="eyebrow">AI Computing · Systems · Architecture</p>
+    <p class="eyebrow">AI Computing · Systems · Embodied AI</p>
     <figure class="hero-portrait">
       <img src="{{ '/assets/img/照片.jpg' | relative_url }}" alt="Portrait of Ruixuan Zhang in the mountains" width="3048" height="3048">
     </figure>
@@ -52,6 +52,15 @@ description: Exploring AI computing systems, computer architecture, and AI infra
 
   <div class="timeline-list">
     <article class="timeline-item">
+      <p class="timeline-period">2027 — Incoming</p>
+      <div class="timeline-main">
+        <h3>Incoming Ph.D. Student · Electronic Information</h3>
+        <p>RC4ML Lab · Zhejiang University</p>
+      </div>
+      <span class="timeline-type">EDUCATION</span>
+    </article>
+
+    <article class="timeline-item">
       <p class="timeline-period">2023 — Present</p>
       <div class="timeline-main">
         <h3>B.Eng. Candidate · Integrated Circuit Design and Integrated System</h3>
@@ -60,7 +69,7 @@ description: Exploring AI computing systems, computer architecture, and AI infra
       <span class="timeline-type">EDUCATION</span>
     </article>
 
-    <!-- Duplicate timeline-item entries here for future doctoral education and professional experience. -->
+    <!-- Duplicate timeline-item entries here for future education and professional experience. -->
   </div>
 </section>
 
@@ -80,8 +89,8 @@ description: Exploring AI computing systems, computer architecture, and AI infra
     </article>
     <article class="interest-item">
       <span class="interest-number">02</span>
-      <h3>Computer Architecture</h3>
-      <p>Studying processors, memory, and interconnects that support emerging intelligent workloads.</p>
+      <h3>Embodied AI Systems</h3>
+      <p>Exploring embodied intelligent systems that integrate perception, decision-making, and action through model–system–hardware co-design.</p>
     </article>
     <article class="interest-item">
       <span class="interest-number">03</span>

@@ -13,7 +13,7 @@ nav_order: 1
 <header class="inner-hero reveal reveal-immediate">
   <p class="eyebrow">研究 · 论文 · 技术工作</p>
   <h1>研究成果</h1>
-  <p>这里整理我的研究方向、已发表成果与跨领域探索，关注人工智能计算系统、计算机体系结构、智能计算基础设施，以及大模型训练、推理与部署优化。</p>
+  <p>这里整理我的研究方向、已发表成果与跨领域探索，关注人工智能计算系统、具身智能系统、智能计算基础设施，以及大模型训练、推理与部署优化。</p>
   <a class="academic-profile-link" href="https://orcid.org/0009-0008-8049-7809" target="_blank" rel="me noopener">
     <strong>查看完整学术档案</strong>
     <span>ORCID 0009-0008-8049-7809</span>
@@ -30,7 +30,7 @@ nav_order: 1
   </header>
   <div class="focus-list">
     <p><span>01</span> 人工智能计算系统与智能计算系统</p>
-    <p><span>02</span> 计算机体系结构与软硬件协同设计</p>
+    <p><span>02</span> 具身智能系统与软硬件协同设计</p>
     <p><span>03</span> 面向大规模负载的智能计算基础设施</p>
     <p><span>04</span> 大模型训练、推理与部署优化</p>
   </div>

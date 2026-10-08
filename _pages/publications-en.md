@@ -13,7 +13,7 @@ nav_order: 1
 <header class="inner-hero reveal reveal-immediate">
   <p class="eyebrow">Research · Publications · Technical Work</p>
   <h1>Publications</h1>
-  <p>This page presents my research directions, publications, and interdisciplinary exploration, with a focus on AI computing systems, computer architecture, AI infrastructure, and optimization for large-model training, inference, and deployment.</p>
+  <p>This page presents my research directions, publications, and interdisciplinary exploration, with a focus on AI computing systems, embodied AI systems, AI infrastructure, and optimization for large-model training, inference, and deployment.</p>
   <a class="academic-profile-link" href="https://orcid.org/0009-0008-8049-7809" target="_blank" rel="me noopener">
     <strong>View Full Academic Record</strong>
     <span>ORCID 0009-0008-8049-7809</span>
@@ -30,7 +30,7 @@ nav_order: 1
   </header>
   <div class="focus-list">
     <p><span>01</span> AI computing systems and intelligent computing systems</p>
-    <p><span>02</span> Computer architecture and hardware–software co-design</p>
+    <p><span>02</span> Embodied AI systems and hardware–software co-design</p>
     <p><span>03</span> AI infrastructure for large-scale workloads</p>
     <p><span>04</span> Large-model training, inference, and deployment optimization</p>
   </div>
