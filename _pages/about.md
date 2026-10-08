@@ -52,16 +52,16 @@ description: 关注人工智能计算系统、具身智能系统与智能基础�
 
   <div class="timeline-list">
     <article class="timeline-item">
-      <p class="timeline-period">2027 — 即将入学</p>
+      <p class="timeline-period">2027 — </p>
       <div class="timeline-main">
-        <h3>博士研究生（即将入学）· 电子信息</h3>
+        <h3>博士研究生（博0）· 电子信息</h3>
         <p>浙江大学 · RC4ML 实验室</p>
       </div>
       <span class="timeline-type">教育经历</span>
     </article>
 
     <article class="timeline-item">
-      <p class="timeline-period">2023 — 至今</p>
+      <p class="timeline-period">2023 — 2027</p>
       <div class="timeline-main">
         <h3>工学学士（在读）· 集成电路设计与集成系统</h3>
         <p>南京大学 · 集成电路学院</p>
@@ -84,21 +84,16 @@ description: 关注人工智能计算系统、具身智能系统与智能基础�
   <div class="interest-grid">
     <article class="interest-item">
       <span class="interest-number">01</span>
-      <h3>人工智能计算系统</h3>
-      <p>面向现代人工智能工作负载，探索高性能、高能效的软硬件协同计算方案。</p>
-    </article>
-    <article class="interest-item">
-      <span class="interest-number">02</span>
       <h3>具身智能系统</h3>
       <p>关注感知、决策与行动一体化的具身智能系统，以及模型、系统软件与计算平台的协同设计。</p>
     </article>
     <article class="interest-item">
-      <span class="interest-number">03</span>
+      <span class="interest-number">02</span>
       <h3>智能计算基础设施</h3>
       <p>研究支撑大规模训练、推理和在线服务的系统基础设施。</p>
     </article>
     <article class="interest-item">
-      <span class="interest-number">04</span>
+      <span class="interest-number">03</span>
       <h3>大模型系统优化</h3>
       <p>聚焦大模型训练、推理与部署过程中的性能、资源效率和工程化问题。</p>
     </article>
